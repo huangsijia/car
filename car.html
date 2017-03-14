@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>你的终极座驾</title>
+    <link rel="stylesheet" href="//www.bxjr.com/topic/css/reset.css" />
+    <link rel="stylesheet" href="css/style.css?v=1.4" />
+	<script type="text/javascript" src="../../js/jquery-1.8.2.min.js"></script>
+    <script src="../../js/layer1.9/layer.js"></script>
+    <style>
+        html,body{
+            max-width:720px;position:relative;
+        }
+    </style>
+</head>
+<body class="body_bg">
+
+<div class="mobile">
+    <section class="part part_01">
+        <img src="images/index.jpg" alt=""/>
+        <div class="index_car"><img src="images/index_car.png" alt=""/></div>
+        <a href="" class="ind_btn next_btn btn" ><img src="images/index-btn.png" alt="" /></a>
+    </section>
+    <section class="part part_02">
+        <img src="images/question.jpg" alt=""/>
+        <div class="q_all">
+            <div class="q_title">
+                <div class="tit t_c">你的终极座驾(1/3)</div>
+            </div>
+            <div class="question">
+                <div class="cont">
+                    <p class="problem">你现在的“爱车”是以下哪种情况</p>
+                    <ul>
+                        <li>
+                            <span></span>
+                            <p><font>我的车还在4S店等我</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>家用轿车，尽显幸福风尚</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>我的SUV带我看尽山水</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>我正在驾驭狂拽炫酷的跑车</font></p>
+                        </li>
+                    </ul>
+                    <input type="hidden" id="first">
+                </div>
+            </div>
+            <div class="q_b"><a class="btn next_btn q_btn" href=""></a></div>
+        </div>
+    </section>
+    <section class="part part_03">
+        <img src="images/question.jpg" alt=""/>
+        <div class="q_all">
+            <div class="q_title">
+                <div class="tit t_c">你的终极座驾(2/3)</div>
+            </div>
+            <div class="question">
+                <div class="cont">
+                    <p class="problem">如果把“自己”比作一辆车，你认为是？</p>
+                    <ul>
+                        <li>
+                            <span></span>
+                            <p><font>年轻有范的路虎极光</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>复古时尚的大众甲壳虫</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>炫酷科技的特斯拉</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>稳重尊荣的劳斯莱斯</font></p>
+                        </li>
+                    </ul>
+                    <input type="hidden" id="second">
+                </div>
+            </div>
+            <div class="q_b"><a class="btn next_btn q_btn" href=""></a></div>
+        </div>
+    </section>
+    <section class="part part_04">
+        <img src="images/question.jpg" alt=""/>
+        <div class="q_all">
+            <div class="q_title">
+                <div class="tit t_c">你的终极座驾(3/3)</div>
+            </div>
+            <div class="question">
+                <div class="cont">
+                    <p class="problem">拥有“爱车”后，你对车子的开销最主要在</p>
+                    <ul>
+                        <li>
+                            <span></span>
+                            <p><font>车身清洁</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>定期保养</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>车品车饰</font></p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p><font>违章罚款</font></p>
+                        </li>
+                    </ul>
+                    <input type="hidden" id="third">
+                </div>
+            </div>
+            <div class="q_b"><a class="btn sub_btn q_btn" href=""></a></div>
+        </div>
+    </section>
+    <section class="part part_suc">
+        <img src="images/result.jpg" alt=""/>
+        <div class="result">
+            <div class="cont"></div>
+            <ul>
+                <li>
+                    <a class="look share_btn" href=""><img src="images/result_share.png" alt="" /></a>
+                </li>
+                <li>
+                    <p>分享有机会得到200元途虎爱车礼包</p>
+                </li>
+                <li>
+                    <a class="site share_btn" href="/topic/201703/car/index_mobile.html#second"><img src="images/result_site.png" alt="" /></a>
+                </li>
+                <li>
+                    <a class="repair share_btn" href="/topic/201703/car/index_mobile.html#third"><img src="images/result_repair.png" alt="" /></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+<div class="pop errPop">
+    <div class="cont">
+        <img src="images/pop_bg.png" alt="" />
+        <a class="close c_close" href=""></a>
+        <p class="t_c">亲，请选择后再继续</p>
+        <a class="continue close" href=""></a>
+    </div>
+</div>
+<div class="pop tipsPop">
+    <div class="cont">
+        <img src="images/pop_bg.png" alt="" />
+        <a class="close c_close" href=""></a>
+        <div class="sucTips">
+            <span class="t_t"></span>
+            <span class="t_c"></span>
+        </div>
+        <a class="goUrl" href="/topic/201703/car/index_mobile.html"></a>
+    </div>
+</div>
+<div class="mask"><img src="images/mask.png" /></div>
+<!-- 音乐 -->
+<!--<audio id="car_audio"  src="images/music.mp3" autoplay="autoplay" loop="loop" ></audio>-->
+<script src="../../js/wechatLink-1.1.js"></script>
+<script>
+    (function(){
+        var  url = location.href;
+        if(url.indexOf("www.") != -1){
+            location.href = url.replace("www.", "m.")
+        }
+        /*音乐*/
+        var audio = $('#car_audio');
+        var isPlaying = false;
+        function playAudio() {
+            var audio = $('#car_audio');
+            if (audio.attr('src') == undefined) {
+                audio.attr('src', audio.data('src'));
+            }
+            audio[0].play();
+            isPlaying = true;
+        }
+        /*控制弹出框*/
+
+        $.ajax({
+            url:'js/index.json',
+            success:function(json){
+                if(!json.type){
+                    layer.open({
+                        content:json.message
+                    });
+                    return false;
+                }
+                /*显示隐藏问答页面*/
+                function  partShow(index){
+                    $(".part").eq(index).show().siblings().hide();
+                }
+                partShow(0);
+
+                var tit = "";
+                /*答题*/
+                $(".question ul li").on("click", function(){
+                    var $this = $(this), ind = $this.index();
+                    $this.addClass("on").siblings().removeClass("on");
+                    $this.parent().siblings("input").val(ind);
+                });
+                /*下一步按钮*/
+                $(".btn").on("click",function(e){
+                    var ind = $(this).parents(".part").index() + 1,len = $(this).parents(".part").find(".on").length;
+                    /*未选题*/
+                    if($(this).hasClass("q_btn")){
+                        if(!len){
+                            $(".errPop").show().find("p").text("亲，请选择后再继续");
+                            return false;
+                        }
+                    }
+                    /*查看结果*/
+                    if($(this).hasClass("sub_btn")){
+                        var one = $("#first").val(),two = $("#second").val(),three = $("#third").val();
+                        $.ajax({
+                            url: "js/data.json",
+                            dataType: "json",
+                            success: function(data){
+                                var num = data.markOne[one] + data.markTwo[two] + data.markThree[three];
+                                var html = data.text[num - 3];
+                                tit = data.name[num - 3];
+
+                                shareData.shareConfig.title = '天哪！我的终极座驾是' + tit + '，你也来测一测吧！';
+                                shareData.shareConfig.link = location.href + "?numberId=" + num;
+                                wechatShare.init(shareData);
+
+                                $(".part_suc .cont").html(html);
+                                partShow(ind);
+                            }
+                        });
+                        return false;
+                    }
+
+                    partShow(ind);
+                    e.preventDefault();
+                });
+                /*关闭错误弹窗*/
+                $(".close").on("click", function(e){
+                    $(this).parents(".pop").hide();
+                    e.preventDefault();
+                });
+
+                $(".look").on("click",function(e){
+                    $(".mask").css({"height": "100%"});
+                    e.preventDefault();
+                });
+                /*蒙层*/
+                $(".mask").on("click",function(){
+                    $(this).css("height","0")
+                });
+                var url = location.href,
+                numberId = getQueryString("numberId");
+                if(numberId){
+                    $.ajax({
+                        url: "js/data.json",
+                        dataType: "json",
+                        success: function(data){
+                            var html = data.text[numberId - 3];
+                            tit = data.name[numberId - 3];
+
+                            shareData.shareConfig.title = '天哪！我的终极座驾是' + tit + '，你也来测一测吧！';
+                            shareData.shareConfig.link = location.href + "?numberId=" + numberId;
+
+                            wechatShare.init(shareData);
+
+                            $(".part_suc .cont").html(html);
+                            partShow(4);
+                        }
+                    });
+                }
+
+                function alertCon(t_t, t_c) {
+                    $(".sucTips .t_t").text(t_t);
+                    $(".sucTips .t_c").text(t_c);
+                    $('.tipsPop').show();
+                }
+
+                function getCount() {
+                    $.ajax({
+                        url:'js/back.json',
+                          success:function (json) {
+                              if(json.data[0].count == "once" && json.data[0].has){
+                                  alertCon("今日已完成一次分享，请明日继续！","");
+                                  $(".tipsPop .sucTips").css({top:"25%"});
+                                  $(".tipsPop .cont .goUrl").css({top:"60%"})
+                              }else if(json.data[0].count == "once"){
+                                  alertCon("您已成功完成一次分享！","活动期间再完成一次分享\r即可得价值200元途虎礼包券");
+                              }else if(json.data[0].count == "twice"){
+                                  alertCon("您成功完成两次分享","价值200元途虎礼包券\r7个工作日内发放到您的账户");
+                              }else{
+                                  alertCon("感谢您的分享","您已成功领取价值200元的途虎礼包券\r每位用户仅限领取1次");
+                              }
+                          }
+                    })
+                }
+                /* 分享 */
+                var wechatShare=new WeChatShare(),
+                        shareData ={
+                            shareConfig:{
+                                title: "天哪！我的终极座驾是劳斯莱斯-幻影，你也来测一测吧！",
+                                desc: "劳斯莱斯or保时捷，你的终极座驾你来做主！",
+                                link: location.href,
+                                imgUrl: "http://100cfp.oss-cn-hangzhou.aliyuncs.com/upload/image/fa453e8f-057a-4e56-b27b-e50c0bf9f21f.png"
+                            },
+                            menuList:{
+                                menuList: [
+                                    'menuItem:readMode', // 阅读模式
+                                    'menuItem:share:timeline', // 分享到朋友圈
+                                    'menuItem:copyUrl', // 复制链接
+                                    'menuItem:share:appMessage'
+                                ]
+                            },
+                            callback:function(){
+                                $(".mask").css("height","0");
+                                getCount();
+                            }
+                        };
+                wechatShare.init(shareData);
+
+                function getQueryString(name){
+                    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+                    var r = null;
+
+                    if(window.location.href.split("?").length > 1){
+                        r = window.location.href.split("?")[1].match(reg);
+                    }
+
+                    if(r != null){
+                        return  unescape(r[2]);
+                    }else{
+                        return null;
+                    }
+                }
+            }
+        });
+
+    }());
+</script>
+
+<div style="display:none">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var s = document.getElementsByTagName("script")[0];
+            //百度统计
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?9d8516b072af1baf608b889209361cbe";
+            s.parentNode.insertBefore(hm, s);
+            //友盟统计
+            var ym = document.createElement("script");
+            ym.src = "//s4.cnzz.com/z_stat.php?id=1258672745";
+            s.parentNode.insertBefore(ym, s);
+        })();
+    </script>
+</div>
+</body>
+</html>

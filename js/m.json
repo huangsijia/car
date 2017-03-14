@@ -1,0 +1,26 @@
+{
+  "data":[
+    {
+      "logo":"images/a_towel.png",
+      "exchangePrice":"5000",
+      "giftPrice":"50",
+      "giftName":"洗车巾"
+    },
+    {
+      "logo":"images/a_cleaner.png",
+      "exchangePrice":"10000",
+      "giftPrice":"100",
+      "giftName":"吸尘器"
+    },
+    {
+      "logo":"images/a_card.png",
+      "exchangePrice":"20000",
+      "giftPrice":"200",
+      "giftName":"京东E卡"
+    }
+  ],
+  "investAmount":"500",
+  "canUseMoney":"5000",
+  "success":true,
+  "type":true
+}
